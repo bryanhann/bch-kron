@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+source $BCH_KRON__init "$*"
