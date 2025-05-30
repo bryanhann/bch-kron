@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+crond=${BCH_KRON_d_CROND}
+mkdir -p $crond
+[   -z $crond ] && echo crond not defined && exit
+[ ! -d $crond ] && echo crond not created && exit
+
+rm -f ${BCH_KRON_f_SERVING}
+for pth in $(ls $crond/[0-9]*); do rm -f $pth; done
+for pth in $(ls $crond/answer.*); do rm -f $pth; done
+for pth in $(ls $crond/pending.*); do rm -f $pth; done
+
+bch.kron.setalarms
+sleep 1
+
+[ -f ${BCH_KRON_f_SERVING} ] && say 'server found'
+[ -f ${BCH_KRON_f_SERVING} ] && exit
+
+say starting server
+bch.kron.serve

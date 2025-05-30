@@ -13,5 +13,9 @@ __export__  _init  ${__root__}/.bch.init/init.sh
 
 source ${__root__}/.bch.init/init.sh
 
+__export__ d_CROND   ~/.tmp.bch.kron
+__export__ f_SERVING ~/.tmp.bch.kron/serving
+__export__ f_ANSWERED ~/.tmp.bch.kron/answered
+
 unset __root__
 unset __export__

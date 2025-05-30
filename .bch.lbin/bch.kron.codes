@@ -1,0 +1,31 @@
+cat <<EOF
+00:00	ace|act|add  aft|age|aha  aim|air|alp  amp|amy|ann
+01:00	ape|apt|arc  are|arf|ark  arm|art|ash  ask|ate|axe
+02:00	bad|bar|bat  bay|bee|bet  bib|big|bin  bit|bob|bog
+03:00	boo|bop|bot  bot|bow|box  boy|bub|bug  bum|bun|bus
+
+04:00	cab|cad|cal  cam|can|cap  car|cat|cob  cod|cog|con
+05:00	cop|cot|cow  cro|cru|cry  cub|cud|cue  cul|cup|cut
+06:00	dab|dad|dag  dam|dar|dat  day|dee|dig  dim|dit|div
+07:00	doe|dog|dop  dot|dry|dub  dud|due|dug  dum|duo|dup
+
+08:00	fad|fag|fan  far|fat|fax  fay|fed|fee  fib|fig|fir
+09:00	fit|fix|flu  fly|fob|foe  fog|foo|fox  fry|fun|fur
+10:00	lab|lad|lag  lam|lan|lap  law|lax|lay  led|leg|lem
+11:00	let|lid|lip  lit|lob|log  loo|lop|lot  low|lug|lux
+
+12:00	mad|man|map  mat|maw|max  may|meh|mel  men|met|mew
+13:00	mic|mit|mix  mob|mod|moo  mop|mow|mox  mud|mug|mum
+14:00	nag|nah|nan  nap|nay|nee  net|new|nil  nim|nip|nit
+15:00	nix|nod|nop  nor|not|now  noy|nub|nug  num|nun|nut
+
+16:00	oaf|oak|oar  oat|oct|odd  ode|off|oft  ogg|ohm|oil
+17:00	old|one|ooo  ops|orb|orc  ore|our|out  owe|owl|own
+18:00	pad|pal|pan  pat|pay|peg  pen|per|pet  pie|pig|pin
+19:00	ply|pod|pom  pop|pot|pow  pro|pry|pub  pug|pun|put
+
+20:00	rad|rag|ram  ran|rap|rat  raw|ray|red  rev|rib|rid
+21:00	rig|rim|rip  rob|rod|rot  rox|rub|rug  rum|run|rut
+22:00	sad|sag|sap  sat|saw|sax  say|shy|sic  sip|sir|six
+23:00	ski|sky|sly  sod|sop|spa  spy|sty|sub  sue|sum|sun
+EOF

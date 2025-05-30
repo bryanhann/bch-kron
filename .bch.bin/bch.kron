@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+echo 777777
+exit
 echo ++[$0] "$@"
 echo
 echo THIS SCRIPT SHOULD BE MODIFIED

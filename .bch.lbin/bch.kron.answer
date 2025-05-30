@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+echo ++[$0 [$@]
+echo ANSWERING DEEDOO
+
+FLAG=${BCH_KRON_f_ANSWERED}
+
+# quickly answer a bch.cron alarm
+
+# Removing this flag says we are waiting for an
+# acknowledegment of a correct answer.
+
+rm ${FLAG} 2> /dev/null
+
+# Register the answer
+
+touch ${BCH_KRON_d_CROND}/answer.$1
+
+# Wait for acknowledgement
+
+while [ ! -f $FLAG ]; do
+    echo -n .
+    sleep 0.1
+done
+# Get zjot line
+
+echo
+echo enter your deedoo zjot line:
+echo -n "> "
+read line
+echo "deedoo $1 : $line"
+bch.zjot new deedoo $1 : $line
+echo --[$0 [$@]

@@ -9,6 +9,7 @@ dependencies = [
     "bumpver>=2023.1129",
     "pytest==8.3.3",
     "click==8.1.7",
+    "typer>=0.16.0",
 ]
 
 [build-system]
