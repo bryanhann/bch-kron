@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+bch:000:linkall ${___here}/lbin

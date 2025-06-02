@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+___export d_CROND       ~/.tmp.bch.kron
+___export f_SERVING     ~/.tmp.bch.kron/serving
+___export f_ANSWERED    ~/.tmp.bch.kron/answered

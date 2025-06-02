@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-echo "### sourcing ${BASH_SOURCE[0]}"
-
