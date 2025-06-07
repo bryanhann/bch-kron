@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+[ -d ${BCH_KRON__root}/.venv ] || {
+    bch:000:debug uv syncing ${BCH_KRON__root}
+    pushd ${BCH_KRON__root}
+    uv sync 
+    popd
+}
+
