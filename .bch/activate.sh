@@ -12,6 +12,7 @@ ___export  _lib         $___here/lib
 ___export  _bin         $___here/bin
 ___export  _lbin        $___here/lbin
 
+source $___here/init/fn.sh
 source $___here/init/init.sh
 
 unset ___pref
